@@ -1,0 +1,9 @@
+/* Copyright 2015 Neder All rights reserved. */
+/* 2015년 제작 */
+body {
+	padding-top: 50px;
+	background-color:#e2e2e2
+}
+body,p,h1,h2,h3,h4,h5,h6,a {
+    font-family: 나눔바른고딕, NanumBarunGothic, NanumBarunGothicOTF, 나눔고딕, NanumGothic, 맑은 고딕
+}
