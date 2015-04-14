@@ -8,7 +8,7 @@ body,p,h1,h2,h3,h4,h5,h6,a {
     font-family: 나눔바른고딕, NanumBarunGothic, NanumBarunGothicOTF, 나눔고딕, NanumGothic, 맑은 고딕
 }
 
-jumbotron {
+.jumbotron {
     background-color: #5bc0de;
     color: #fff;
 }
