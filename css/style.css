@@ -13,6 +13,10 @@ body,p,h1,h2,h3,h4,h5,h6,a {
     color: #fff
 }
 
+a:link {
+    color: #000000
+}
+
 a.jumbotron_title:link {
     text-decoration: none;
     color: #ffffff
