@@ -13,10 +13,10 @@ body,p,h1,h2,h3,h4,h5,h6,a {
     color: #fff
 }
 
-a:link {
+a.article:link {
     color: #000000
 }
-a:visited { {
+a.article:visited {
     color: #000000
 }
 a.jumbotron_title:link {
