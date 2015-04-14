@@ -12,3 +12,16 @@ body,p,h1,h2,h3,h4,h5,h6,a {
     background-color: #5bc0de;
     color: #fff
 }
+
+a:link {
+    text-decoration: none; color: #ffffff
+}
+a:visited {
+    text-decoration: none; color: #ffffff
+}
+a:active {
+    text-decoration: none; color: #888888
+}
+a:hover {
+    text-decoration: none; color: #888888
+}
