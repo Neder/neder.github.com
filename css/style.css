@@ -13,19 +13,19 @@ body,p,h1,h2,h3,h4,h5,h6,a {
     color: #fff
 }
 
-a.jumbotron:link {
+a.jumbotron_title:link {
     text-decoration: none;
     color: #ffffff
 }
-a.jumbotron:visited {
+a.jumbotron_title:visited {
     text-decoration: none;
     color: #ffffff
 }
-a.jumbotron:active {
+a.jumbotron_title:active {
     text-decoration: none;
     color: #DDDDDD
 }
-a.jumbotron:hover {
+a.jumbotron_title:hover {
     text-decoration: none;
     color: #DDDDDD
 }
