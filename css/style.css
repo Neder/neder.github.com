@@ -8,11 +8,6 @@ body,p,h1,h2,h3,h4,h5,h6,a {
     font-family: 나눔바른고딕, NanumBarunGothic, NanumBarunGothicOTF, 나눔고딕, NanumGothic, 맑은 고딕
 }
 
-.jumbotron {
-/*    background-color: #5bc0de;*/
-    color: #fff
-}
-
 a.article:link {
     color: #000000
 }
@@ -21,17 +16,17 @@ a.article:visited {
 }
 a.jumbotron_title:link {
     text-decoration: none;
-    color: #ffffff
+    color: #333333
 }
 a.jumbotron_title:visited {
     text-decoration: none;
-    color: #ffffff
+    color: #333333
 }
 a.jumbotron_title:active {
     text-decoration: none;
-    color: #DDDDDD
+    color: #666666
 }
 a.jumbotron_title:hover {
     text-decoration: none;
-    color: #DDDDDD
+    color: #666666
 }
