@@ -4,9 +4,11 @@ body {
 	padding-top: 50px;
 	background-color:#e2e2e2
 }
-body,p,h1,h2,h3,h4,h5,h6,a {
-    font-family: 나눔바른고딕, NanumBarunGothic, NanumBarunGothicOTF, 나눔고딕, NanumGothic, 맑은 고딕
-}
+
+/* 웹폰트 - Special Thanks to ADRINER */
+@import url("//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css");
+@import url("//fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic");
+* {font-family: 'Roboto', 'Nanum Barun Gothic'}
 
 a.article:link {
     color: #000000
