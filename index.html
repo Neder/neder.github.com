@@ -1,54 +1,101 @@
 <!DOCTYPE html>
-<html>
+<!-- Copyright 2015 Neder All rights reserved. -->
+<!-- ㅇㅅㅇ UTF-8이고 싶다 -->
+<html lang='ko'>
+	<head>
+		<meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+		<link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+		<link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+		<link rel='stylesheet' href='./css/style.css'>
+        <script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js'></script>
+        <title>Neder's Github Page</title>
+	</head>
+	<body>
+        <div class='container'>
+			<div class='jumbotron text-center'>
+                    <a class='jumbotron_title' href="https://github.com/Neder"><h1>Neder <i class="fa fa-github"></i></h1></a>
+                    <p>Neder's Github Page</p>
+                    <button type="button" class="btn btn-lg btn-info" href="https://twitter.com/Neder8809"><i class="fa fa-twitter"></i> Twitter</button>
+                    <button type="button" class="btn btn-lg btn-primary" href="https://facebook.com/Neder8809"><i class="fa fa-facebook"></i> Facebook</button>
+                    <button type="button" class="btn btn-lg btn-success" href="http://blog.neder.me"><i class="fa fa-globe"></i> Blog</button>
+                    <button type="button" class="btn btn-lg btn-default" href="mailto:neder@neder.me"><i class="fa fa-envelope"></i> Contact</button>
+			</div>
+		</div>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Neder : Neder&#39;s GitHub page" />
+		<div class='container'>
+			<div class='panel panel-default'>
+                <div class='panel-heading'></div>
+                <div class='panel-body'>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Neder</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/Neder">View on GitHub</a>
-
-          <h1 id="project_title">Neder</h1>
-          <h2 id="project_tagline">Neder&#39;s GitHub page</h2>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h2>
-<a name="sns" class="anchor" href="#sns"><span class="octicon octicon-link"></span></a>SNS:</h2>
-
-<h3>Blog: <a name="httpblognederme-korean" class="anchor" href="#httpblognederme-korean"><span class="octicon octicon-link"></span></a><a href="http://blog.neder.me/">http://blog.neder.me/</a> (Korean)</h3>
-<h3>Twitter: <a name="twitter" class="anchor" href="#twitter"><span class="octicon octicon-link"></span></a><a href="https://twitter.com/Neder8809">@Neder8809</a></h3>
-<h3>Facebook: <a name="facebook" class="anchor" href="#facebook"><span class="octicon octicon-link"></span></a><a href="https://facebook.com/Neder8809">Neder8809</a> (Korean)</h3>
-<h2>
-<a name="projects" class="anchor" href="#projects"><span class="octicon octicon-link"></span></a>Projects:</h2>
-
-<h3><a name="towny-korean-localization-project" class="anchor" href="#towny-korean-localization-project"><span class="octicon octicon-link"></span></a>Towny Korean localization project</h3>
-
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="page-header">
+                            <h2>Projects</h2>
+                        </div>
+                        <div class="media">
+                            <div class="media-left">
+                                <img src="./images/townylogo.png" width="64px" height="64px" alt="Towny Logo">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading" id="media-heading">Localize Towny<br><small>to Korean</small></h3>
+                                <a href="https://github.com/Neder/Towny"><i class="fa fa-check"></i> Active</a>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-left">
+                                <img src="./images/AstiaLogo.png" width="64px" height="64px" alt="ASTIA Logo">
+                            </div>
+                            <div class="media-body">
+                                <h1 class="media-heading" id="media-heading"><small>ASTIA</small></h1>
+                                <p><i class="fa fa-close"></i> Stopped</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-left">
+                                <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGRlZnMvPjxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjE0LjUiIHk9IjMyIiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQ7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NjR4NjQ8L3RleHQ+PC9nPjwvc3ZnPg==" data-holder-rendered="true" style="width: 64px; height: 64px;">
+                            </div>
+                            <div class="media-body">
+                                <h1 class="media-heading" id="media-heading"><small>And more..</small></h1>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-md-6 col-sm-6">
+                        <div class="page-header">
+                            <h2>Playing</h2>
+                        </div>
+                        <div class="media">
+                            <div class="media-left">
+                                <img src="./images/minecraft.png" width="64px" height="64px" alt="Minecraft Logo">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading" id="media-heading">Minecraft</h3>
+                                <p>Username: Neder8809</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-left">
+                                <img src="./images/jubeat.jpg" width="64px" height="64px" alt="jubeat Logo">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading" id="media-heading">jubeat</h3>
+                                <p>Username: NEDER</p>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-left">
+                                <img src="./images/reflecbeat.jpg" width="64px" height="64px" alt="REFLEC BEAT Logo">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading" id="media-heading">REFLEC BEAT</h3>
+                                <p>Username: Neder</p>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+			</div>
+		</div>
+	</body>
 </html>
