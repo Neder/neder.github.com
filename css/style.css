@@ -8,7 +8,7 @@ body {
 /* 웹폰트 - Special Thanks to ADRINER */
 @import url("//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css");
 @import url("//fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic");
-* {font-family: 'Roboto', 'Nanum Barun Gothic'}
+* {font-family: 'Roboto', '나눔바른고딕'}
 
 a.article:link {
     color: #000000
