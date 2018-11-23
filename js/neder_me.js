@@ -16,8 +16,8 @@ $(document).ready(function() {
 	// handle military service progress bar
 	// http://blog.naver.com/chsmanager/220305377502
 	var today      = new Date();
-	var start_date = new Date(2019, 1, 18, 0, 0, 0); // 2019-01-01, Sample!!!!
-	var end_date   = new Date(2021, 11, 17, 23, 59, 59); // 2021-01-01
+	var start_date = new Date(2019, 1, 18, 0, 0, 0); // 2019-02-18, Sample!!!!
+	var end_date   = new Date(2020, 11, 17, 23, 59, 59); // 2020-12-17
 	
 	var total_days  = (end_date - start_date) / 86400000;
 	var remain_days = (end_date - today) / 86400000;
