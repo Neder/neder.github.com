@@ -25,7 +25,7 @@ $(document).ready(function() {
 		remain_days = total_days
 	var progress    = (100*(total_days-remain_days)/total_days).toFixed(2);
 	
-	jQuery('#ms_days').text(start_date.yymmdd() + " ~ " + end_date.yymmdd());
+	// jQuery('#ms_days').text(start_date.yymmdd() + " ~ " + end_date.yymmdd());
 	
 	jQuery('#prgbar_label').text(progress + "%");
 	jQuery('#ms_prgbar').attr("aria-valuenow", progress);
